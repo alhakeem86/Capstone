@@ -2,7 +2,7 @@ import html from "html-literal";
 
 export default state => html`
 
-<div class="contect">
+<div>
         <h2 class="Welcome">Welcome to our new website!</h2><br><h3>fast responsive,easily navigation</h3>
         <p class="par">While redesigning our site, we wanted to make our content easily accessible the moment you want it wherever you are,Our new site is now fully responsive to any screen size – desktop, mobile or tablet!
 
@@ -14,4 +14,9 @@ export default state => html`
        ENTERTAINMENT - a place to explore the many ways for children and youth with CP and their families They will read and watch a lot of important information about CP and successful experiences of people with the same diagnosis and disability, and finally CONTACT - Here you can communicate with us through many electronic means of communication  We've made huge improvements on the integration of content and related materials within each page allowing you to easily flow between content without getting lost. </p>
   </div>
     </div>
+    <h3>
+      The weather in ${state.weather.city} is ${state.weather.description}.
+      Temperature is ${state.weather.temp}F, and it feels like
+      ${state.weather.feelsLike}F.
+    </h3>
     `;
