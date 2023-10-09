@@ -6,6 +6,7 @@ body{
   background-image: url(assets/img/bluesky.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 .za-img {
   height: 400px;
@@ -74,11 +75,13 @@ body{
       }
 
 
-.contect{
+.contact {
   margin: 100px;
   margin-left: 60px;
   margin-top: 50px;
   font-family: 'Times New Roman', Times, serif;
+  flex-direction: column;
+
 }
 h2{
   color: rgba(12, 66, 114, 0.959);
@@ -127,7 +130,7 @@ form{
   text-align: center;
   font-size: 40px;
   margin-top: 40px;
-  color:  rgba(1, 21, 40, 0.937);
+  color:  rgba(223, 18, 18, 0.937);
   }
   .MsoNormal{
     color: rgba(1, 19, 36, 0.94);
