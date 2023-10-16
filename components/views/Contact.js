@@ -1,23 +1,61 @@
 import html from "html-literal";
 
 export default state => html`
-  <form>
-    <label for="name">Name:</label>
-    <input type="text" name="name" id="name" placeholder="Full Name" required />
-    <label for="email">Email:</label>
-    <input
-      type="email"
-      name="email"
-      id="email"
-      placeholder="you@somewhere.com"
-    />
-    <label for="fone">Phone:</label>
-    <input type="tel" name="fone" id="fone" placeholder="555-555-5555" />
-    <input type="submit" />
+ <div class="container">
+    <h2 class="za">Connect With me</h2>
+    <p>we would love to respond to your queries and help you .feel free to get in touch with us</p>
+    <div class="contact-box">
+      <div class ="contact-left">
+        <h3>send your request</h3>
+        <form>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Name</label>
+                <input type="text" placeholder="enter your name">
+              </div>
+              <div class="input-group">
+                <label>Phone</label>
+                <input type="phone" placeholder="enter your phone number">
+              </div>
 
-    <div>
-      <label for="msg">Enter your message:</label>
-      <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input-row">
+                <div class="input-group">
+                  <label>Email</label>
+                  <input type=" Email" placeholder="enter your email">
+                </div>
+
+              <div class="input-group">
+                <label>Subject</label>
+                <input type="subject" placeholder="enter your subject">
+              </div>
+
+          </form>
+
+
     </div>
-  </form>
+    <label>Text Meesage</label>
+              <textarea  rows="5" placeholder="write your message"></textarea>
+              <button type="submit">send</button>
+  </div>
+    <div class="contact-right">
+      <h3>reach us</h3>
+    <table>
+      <tr>
+        <td>email</td>
+        <td>contactme@gmail.com</td>
+      </tr>
+      <tr>
+        <td>phone</td>
+        <td>555-555-5555</td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td>#212 , ground floor,7th cross </td>
+      </tr>
+
+    </table>
+    </div>
+  </div>
+
 `;

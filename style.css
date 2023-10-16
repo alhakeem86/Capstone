@@ -3,163 +3,181 @@
   padding: 0;
 }
 body{
-  background-image: url(assets/img/bluesky.jpg);
+  background-color: #a6def2;
   background-size: cover;
   background-repeat: no-repeat;
-
-}
-.za-img {
-  height: 400px;
-  border-radius: 100px;
-  margin-left: 370px;
-}
-.headingweb{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-  color:rgba(2, 38, 70, 0.959) ;
-  padding: 40px;
-  text-align: center;
-
 }
 
-  .za-img{
-    margin-bottom: 10px;
-    width: 100%;
-    display: inline;
-    object-fit: cover;
-  }
-  @media (max-width: 549px){
-    .hidden--mobile {
-      display: none !important;
-    }
-
-    nav {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-    }
-
-    nav > i {
-      padding: 1rem;
-      font-size: 2em;
-    }
-
-    nav > ul {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding: 0 0;
-    }
-
-    nav > ul > li {
-      padding: 0.5rem;
-      list-style-type: none;
-    }
-    @media (min-width: 550px) {
-      nav > ul {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 0 0;
-      }
-
-      nav > ul > li {
-        display: inline-block;
-        text-decoration: none;
-        border: 1px solid;
-        padding: 0.5rem 0.5rem;
-        border-radius: 25px;
-      }
-
-      nav > .fa-bars {
-        display: none;
-      }
-
-
-.contact {
-  margin: 100px;
-  margin-left: 60px;
-  margin-top: 50px;
-  font-family: 'Times New Roman', Times, serif;
-  flex-direction: column;
-
+h1{
+  color: #011a33;
+  font-size: 50px;
+  margin-left:30px ;
+padding-left: 15px;
+margin-top: 20px;
 }
+
 h2{
-  color: rgba(12, 66, 114, 0.959);
-  font-size: 30px;
-  margin-left: 2px;
-}
-h3{
-  margin: 5px;
-  font-family: 'Times New Roman', Times, serif;
-  color:rgb(6, 193, 6) ;
-  margin-bottom: 10px;
-  font-size: 24px;
-}
-.par{
-  letter-spacing: 1.2px;
-  font-family: 'Times New Roman', Times, serif;
-  color: rgb(1, 33, 61);
-  font-size: 18px;
-  margin-left: 5px;
-}
-.secondcontect{
-  margin: 65px;
-}
-.secpar{
-  letter-spacing: 1.2px;
-  font-family: 'Times New Roman', Times, serif;
-  color: rgb(1, 33, 61);
-  font-size: 18px;
-}
-.headingcontact{
-font-size: 50px;
-margin-top: 100px;
-text-align: center;
-
-}
-
-
-form{
-  width: 40px;
-  margin-left: 700px;
-  margin-top: 100px;
-  flex-direction: row;
-}
-
-.headTXT{
-  text-align: center;
+  color: #011a33;
   font-size: 40px;
-  margin-top: 40px;
-  color:  rgba(223, 18, 18, 0.937);
+  text-decoration: none;
+  padding-left: 14px;
+  margin-right: 2px;
+}
+
+h3{
+  font-size: 30px;
+  color: #01101f;
+  margin: 12px;
+}
+
+h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:25px ;
+  padding: 12px;
+}
+
+p{
+  margin-left: 14px;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  padding: 1opx;
+}
+
+.za{
+  color: #02931d;
+}
+
+.zaidphoto{
+  width: 200px;
+  height:200px ;
+  margin-left:50px ;
+}
+
+.container{
+  margin: 50px;
+  width: 80% auto;
   }
-  .MsoNormal{
-    color: rgba(1, 19, 36, 0.94);
-    font-family: 'Times New Roman', Times, serif;
-    font-size:18px;
+
+  .contact-box{
+    background: #F9FAF9;
+    display: flex;
+  }
+  .contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+  }
+  .contact-right{
+  flex-basis: 60px;
+    padding: 10%;
+    background: #02931d;
+    color: #F9FAF9;
+  }
+  .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .input-row .input-group{
+  flex-basis: 45%;
+  }
+  input{
+    width: 100%;
+    border: none;
+    border-bottom:1px solid #ccc ;
+    outline: none;
+    padding-bottom: 5px;
+  }
+  textarea{
+    width: 100px;
+    border:1px solid #ccc ;
+    outline: none;
     padding: 10px;
-    margin-left: 75px;
-    letter-spacing: 1.0px;
+    box-sizing: border-box;
   }
-
-  .cererbalpalsypage{
-    background-color: rgb(16, 35, 29);
+  button{
+    background-color: #02931d;
+    outline: none;
+    border: none;
+    width: 100px;
   }
-  .row{
-    padding: 20px;
-    margin-right: 20px;
-  }
-  #zaza{
-    margin-left: 82px;
-    color: rgba(1, 21, 40, 0.937);
-    font-family: 'Times New Roman', Times, serif;
-    font-size:22px ;
-  }
-  strong{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-  }
+ul{
+  margin-left: 14px;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  padding:15px;
+}
 
+.footer{
+  margin: 100px;
+  text-align: center;
+}
 
+img{
+  width: 700px;
+  height: 400px;
+  margin-left: 350px;
+  border-radius: 300px;
+}
 
+.welcome{
+  margin:40px ;
+}
 
+.simple{
+  padding: 10px;
+  margin: 19px;
+}
 
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #01101f;
+  box-shadow: 0 0 20px rgba(10, 1, 36, 0.7);
+  border-radius: 20px;
+}
+
+nav > ul > li {
+float: left;
+}
+
+nav > ul > li:hover {
+ background-color: #2B6F88;
+ transition:ease-out 0.8s ;
+ font-weight: 200px;
+}
+
+nav > ul > li a {
+  display: block;
+  color: #F9FAF9;
+  text-shadow: 5px 5px 20px #000000;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+@media (min-width: 550px){
+  nav > .fa-bars{
+    display:none; }
+
+}
+
+@media (max-width: 549px){
+.hidden--mobile {
+display: none !important;
+}
+
+@media (min-width: 550px) {
+nav > ul {
+display: flex;
+justify-content: space-evenly;
+padding: 0 0;
+}
