@@ -1,5 +1,5 @@
 export default {
-  header: "My Home Page",
+  header: "My journy with cp ",
   view: "Home",
   weather: {}
 };
