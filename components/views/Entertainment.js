@@ -394,7 +394,7 @@ export default state => html`
     <tbody>
       <tr>
         <td>
-        <iframe width="260" height="222" src="https://www.youtube.com/embed/-rChNik3B-M" title="Michele Shusterman - the CP Tool Kit (2016 AACPDM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="400" height="222" src="https://www.youtube.com/embed/-rChNik3B-M" title="Michele Shusterman - the CP Tool Kit (2016 AACPDM)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </td>
         <p>
         Michele Shusterman – the CP Tool Kit (2016 AACPDM)
@@ -403,18 +403,18 @@ The CP Tool Kit: From Chaos to Cohesion
 Making sense of CP for Caregivers
         </p>
        <hr><br>
-        <iframe width="260" height="222" src="https://www.youtube.com/embed/S57bDVepLhA" title="Dr. Margaret Wallen — A tool for CP interventions/treatments (2016 AACPDM Community Forum)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="400" height="222" src="https://www.youtube.com/embed/S57bDVepLhA" title="Dr. Margaret Wallen — A tool for CP interventions/treatments (2016 AACPDM Community Forum)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <p>
       Dr. Margaret Wallen — A tool for CP interventions/treatments (2016 AACPDM Community Forum)
       </p>
      <hr><br>
-      <iframe width="260" height="222" src="https://www.youtube.com/embed/BiBR5E6oTnU" title="Research CP Dystonia Edition Results" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="400" height="222" src="https://www.youtube.com/embed/BiBR5E6oTnU" title="Research CP Dystonia Edition Results" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <p>
       Research CP Dystonia Edition Results
 This webinar covers the results of the CP Research Network’s Research CP: Dystonia Edition initiative. It describes the process, methodology and results in our effort to set a patient-centered research agenda for dystonia in CP. We cover the top ten themes for research and the underlying uncertainties developed by a community of people with CP, parents and caregivers and clinicians
       </p>
       <hr><br>
-      <iframe width="260" height="222" src="https://www.youtube.com/embed/53PU7bQWJPE" title="Research CP Webinar #1 Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="400" height="222" src="https://www.youtube.com/embed/53PU7bQWJPE" title="Research CP Webinar #1 Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <p>
 
     Research CP Webinar #1 Overview
@@ -422,15 +422,15 @@ This webinar provides an overview of the planned Research CP initiative to set a
     </p>
     <hr><br>
     <h2 class="za"> Top3 Movies for cerebral palsy</h2><br>
-    <iframe width="260" height="222" src="https://www.youtube.com/embed/bv39D8QrBT4" title="Door to Door - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="400" height="222" src="https://www.youtube.com/embed/bv39D8QrBT4" title="Door to Door - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <p>
    Door to Door is a 2002 movie inspired by the true story of Bill Porter, a man who grew up in Portland, Oregon, with cerebral palsy. Porter was diagnosed with cerebral palsy at birth in 1932, and while growing up, he faced numerous obstacles because of his disability. When he became an adult, he had a dream to become a door to door salesman, but almost everyone who knew him told him he wasn’t employable because he was “crippled.”</p><br><hr>
-   <iframe width="260" height="222" src="https://www.youtube.com/embed/2dRdWJfv-cM" title="My Left Foot (1989) Trailer (Fan-Made)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="400" height="222" src="https://www.youtube.com/embed/2dRdWJfv-cM" title="My Left Foot (1989) Trailer (Fan-Made)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <p>
   Christy Brown is born with cerebral palsy to a large, poor Irish family. His mother, Mrs. Brown, recognizes the intelligence and humanity in the lad everyone else regards as a vegetable. Eventually, Christy matures into a cantankerous artist who uses his dexterous left foot to write and paint
   </p>
   <br><hr>
-  <iframe width="260" height="222" src="https://www.youtube.com/embed/v7xxDhfutAU" title="War Eagle, Arkansas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="400" height="222" src="https://www.youtube.com/embed/v7xxDhfutAU" title="War Eagle, Arkansas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <p>
   War Eagle, Arkansas is a character-driven drama about a young man's choice of whether to leave his family and friends for a career in baseball or stay and redeem his struggling community.
   </p>

@@ -1,4 +1,4 @@
 export default {
-  header: "My Cerebralpalsy Page",
+  header: "Cerebralpalsy Page",
   view: "Cerebralpalsy"
 };
