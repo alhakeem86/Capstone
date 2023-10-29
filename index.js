@@ -24,18 +24,27 @@ function afterRender(state) {
   document.querySelector(".fa-bars").addEventListener("click", () => {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
-  if (state.view === "Cerebralpalsy") {
-    axios
-      .get(`https://bored-api.appbrewery.com/random`)
-      // .get(
-      //   `https://bored-api.appbrewery.com/filter?type=${type}&participants=${participants}`
-      // )
-      .then(response => {
-        console.log(response);
-      })
-      .catch(error => {
-        console.log("It puked", error);
-      });
+  if (state.view === "order") {
+    document.querySelector("form").addEventListener("submit", event => {
+      event.preventDefault();
+      const inputList = event.target.elements;
+      console.log("Input Element List", inputList);
+
+      const requestData = {
+        customer: inputList.customer.value
+      };
+      console.log("request Body", requestData);
+      axios
+        .post(`${process.env.PIZZA_PLACE_API_URL}/yourstories`, requestData)
+        .then(response => {
+          store.yourstory.yourstories.push(response.data);
+          router.navigate("/yourstory");
+        })
+        // If there is an error log it to the console
+        .catch(error => {
+          console.log("It puked", error);
+        });
+    });
   }
 }
 router.hooks({
@@ -81,14 +90,14 @@ router.hooks({
             done();
           });
         break;
-      case "Pizza":
+      case "yourstory":
         // New Axios get request utilizing already made environment variable
         axios
-          .get(`${process.env.PIZZA_PLACE_API_URL}/pizzas`)
+          .get(`${process.env.PIZZA_PLACE_API_URL}/yourstories`)
           .then(response => {
             // We need to store the response to the state, in the next step but in the meantime let's see what it looks like so that we know what to store from the response.
             console.log("response", response);
-            store.Pizza.pizzas = response.data;
+            store.yourstory.yourstories = response.data;
             done();
           })
           .catch(error => {

@@ -8,6 +8,19 @@ body{
   background-repeat: no-repeat;
 }
 
+form {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+}
+
+form > input[type="submit"] {
+  width: 40%;
+  margin: 0.5rem;
+  margin-right: auto;
+}
+
 
 h1{
   color: #011a33;
@@ -70,7 +83,7 @@ p{
   .contact-right{
   flex-basis: 60px;
     padding: 10%;
-    background: #016a14;
+    background: #f1a602;
     color: #F9FAF9;
   }
   .input-row{
@@ -96,7 +109,7 @@ p{
     box-sizing: border-box;
   }
   button{
-    background-color: #047118;
+    background-color: #f1a602;
     outline: none;
     border: none;
     width: 100px;
