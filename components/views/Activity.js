@@ -1,34 +1,29 @@
 import html from "html-literal";
 
 export default state => html`
-  <div class="alert-box">
-    <p class="alert"></p>
-  </div>
+  <div class="container2">
+    <h1>Let's find something for you to do ✌️</h1>
 
-  <div class="form">
-    <h1 class="heading">Register</h1>
-    <input
-      type="text"
-      placeholder="name"
-      autocomplete="off"
-      class="name"
-      required
-    />
-    <input
-      type="email"
-      placeholder="email"
-      autocomplete="off"
-      class="email"
-      required
-    />
-    <input
-      type="password"
-      placeholder="password"
-      autocomplete="off"
-      class="password"
-      required
-    />
-    <button class="submit-btn">register</button>
-    <a href="/login" class="link">already have an account ? log in here</a>
+    <form action="/" id="form" class="form-1" method="POST">
+      <select name="type" class="form-select1">
+        <option value="" data-display="Select">Random type</option>
+        <option value="education">Education</option>
+        <option value="charity">Charity</option>
+        <option value="recreational">Recreational</option>
+        <option value="relaxation">Relaxation</option>
+        <option value="busywork">Busywork</option>
+        <option value="social">Social</option>
+        <option value="diy">DIY</option>
+        <option value="music">Music</option>
+      </select>
+      <select name="participants" class="form-select1">
+        <option value="">Any number of people</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <button type="submit" class="submit-1">Go</button>
+    </form>
   </div>
 `;

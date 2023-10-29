@@ -3,7 +3,7 @@ import yourstory from "../models/yourstory.js";
 
 const router = Router();
 // Create pizza route
-router.post("/yourstory", async (request, response) => {
+router.post("/", async (request, response) => {
   try {
     const newstory = newstory(request.body);
 

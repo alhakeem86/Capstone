@@ -1,4 +1,4 @@
 export default {
-  header: "My Exercises Page",
+  header: "Exercises Page",
   view: "Exercises"
 };
