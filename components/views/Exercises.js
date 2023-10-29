@@ -9,7 +9,9 @@ export default state => html`
   <div class="welcome">
     <h2 class="za">15 Effective Exercises for Adults with Cerebral Palsy</h2>
     <br />
+    <br />
     <img class="ho-img" src="${myImage}" />
+    <br />
     <br />
     <p>
       The most effective exercises for adults with cerebral palsy will help them
