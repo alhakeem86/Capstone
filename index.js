@@ -15,15 +15,28 @@ function render(state = store.Home) {
   document.querySelector("#root").innerHTML = `${Header(state)} ${Nav(
     store.Links
   )} ${Main(state)} ${Footer()}`;
-  afterRender();
+  afterRender(state);
   router.updatePageLinks();
 }
 
-function afterRender() {
+function afterRender(state) {
   // add menu toggle to bars icon in nav bar
   document.querySelector(".fa-bars").addEventListener("click", () => {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
+  if (state.view === "Cerebralpalsy") {
+    axios
+      .get(`https://bored-api.appbrewery.com/random`)
+      // .get(
+      //   `https://bored-api.appbrewery.com/filter?type=${type}&participants=${participants}`
+      // )
+      .then(response => {
+        console.log(response);
+      })
+      .catch(error => {
+        console.log("It puked", error);
+      });
+  }
 }
 router.hooks({
   before: (done, params) => {

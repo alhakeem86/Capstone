@@ -3,10 +3,11 @@
   padding: 0;
 }
 body{
-  background-color: #a6def2;
+  background-color: #ffffffcd;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 h1{
   color: #011a33;
@@ -17,7 +18,7 @@ margin-top: 20px;
 }
 
 h2{
-  color: #011a33;
+  color: #011a32;
   font-size: 40px;
   text-decoration: none;
   padding-left: 14px;
@@ -26,7 +27,7 @@ h2{
 
 h3{
   font-size: 30px;
-  color: #01101f;
+  color: #011a32;
   margin: 12px;
 }
 
@@ -38,13 +39,13 @@ h4{
 
 p{
   margin-left: 14px;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 0.4px;
   padding: 1opx;
 }
 
 .za{
-  color: #02931d;
+  color: #f1a602;
 }
 
 .zaidphoto{
@@ -69,7 +70,7 @@ p{
   .contact-right{
   flex-basis: 60px;
     padding: 10%;
-    background: #02931d;
+    background: #016a14;
     color: #F9FAF9;
   }
   .input-row{
@@ -95,7 +96,7 @@ p{
     box-sizing: border-box;
   }
   button{
-    background-color: #02931d;
+    background-color: #047118;
     outline: none;
     border: none;
     width: 100px;
@@ -113,10 +114,31 @@ ul{
 }
 
 img{
-  width: 700px;
+  width: 400px;
   height: 400px;
-  margin-left: 350px;
+  margin-left: 550px;
   border-radius: 300px;
+}
+
+.ho-img{
+  width: 800px;
+  height: 500px;
+  margin-left: 400px;
+  border-radius: 300px;
+}
+.ex-img{
+  width: 600px;
+  height: 400px;
+  margin-left: 500px;
+  border-radius: 100px;
+}
+.books{
+padding: 0%;
+border: none;
+border-radius:10px;
+width:200px ;
+height:auto ;
+margin-left: 40px;
 }
 
 .welcome{
@@ -126,6 +148,13 @@ img{
 .simple{
   padding: 10px;
   margin: 19px;
+}
+
+
+@media (min-width: 992px) {
+  .top-bar {
+      padding: 0 60px;
+  }
 }
 
 nav {
