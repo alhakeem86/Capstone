@@ -1,13 +1,13 @@
 import { Router } from "express";
-import yourstory from "../models/yourstory.js";
+import Yourstory from "../models/Yourstory.js";
 
 const router = Router();
 // Create your story route
 router.post("/", async (request, response) => {
   try {
-    const newstory = newstory(request.body);
+    const newStory = new Yourstory(request.body);
 
-    const data = await newstory.save();
+    const data = await newStory.save();
 
     response.json(data);
   } catch (error) {
@@ -20,7 +20,7 @@ router.get("/", async (request, response) => {
     // Store the query params into a JavaScript Object
     const query = request.query; // Defaults to an empty object {}
 
-    const data = await yourstory.find(query);
+    const data = await Yourstory.find(query);
 
     response.json(data);
   } catch (error) {
