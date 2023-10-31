@@ -8,7 +8,7 @@ export default state => html`
       <label for="story"> Write your story</label>
       <input
           type="text"
-          name=" story"
+          name="story"
           id="story"
           placeholder="write your story"
           required
