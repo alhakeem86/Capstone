@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const yourstorySchema = new mongoose.Schema({
-  user: {
+  story: {
     type: String,
     required: true,
     validate: /^[A-Za-z0-9 ]*$/

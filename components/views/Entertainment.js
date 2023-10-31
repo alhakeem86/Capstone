@@ -46,7 +46,9 @@ export default state => html`
     </p>
     <p />
     <h2>1. Arts and Crafts</h2>
+    <div class = "box-x">
     <img src="${myImage0}" />
+    </div>
     <p>
       Creative activities like painting, draw, and sculpting are excellent for
       developing fine motor skills. Fine motor skills involve the use of smaller
@@ -58,7 +60,9 @@ export default state => html`
       impairments may find it easier to draw how they feel.
     </p>
     <h2>2. Adaptive Sports</h2>
+    <div class = "box-x">
     <img src="${myImage1}" />
+   </div>
     <p>
       Participating in adaptive sports can be a great activity for kids with
       cerebral palsy. Not only does it promote an active lifestyle, but it also
@@ -68,7 +72,9 @@ export default state => html`
       out the Paralympic Club directory.
     </p>
     <h2>3. Board Games</h2>
+    <div class = "box-x">
     <img src="${myImage2}" />
+    </div>
     <p>
       Board games are fun activities that encourage children to count,
       strategize, and take risks. Along with developing cognitive skills,
@@ -79,7 +85,9 @@ export default state => html`
       fine motor skills.
     </p>
     <h2>4. Karaoke</h2>
+    <div class = "box-x">
     <img src="${myImage3}" />
+   </div>
     <p>
       Kids with cerebral palsy that have speech impairments can benefit from
       singing. Singing is processed by a different part of the brain than speech
@@ -87,7 +95,9 @@ export default state => html`
       articulation, and flow.
     </p>
     <h2>5. Horseback Riding</h2>
+    <div class = "box-x">
     <img src="${myImage4}" />
+   </div>
     <p>
       Horseback riding is one of the best activities for kids with cerebral
       palsy because it promotes: Balance Strength Posture Coordination Range of
@@ -98,7 +108,9 @@ export default state => html`
       interacting with horses can also improve a child’s emotional wellbeing.
     </p>
     <h2>6. Swimming</h2>
+    <div class = "box-x">
     <img src="${myImage5}" />
+    </div>
     <p>
       Getting into a pool is one of the best activities for kids with cerebral
       palsy because it lets them practice moving around with less pressure on
@@ -112,7 +124,9 @@ export default state => html`
       a fall.
     </p>
     <h2>7.  Party</h2>
+    <div class = "box-x">
     <img src="${myImage6}" />
+    </div>
     <p>
       Throw a  party and play songs that have corresponding hand motions or
        moves. These movements are usually simple and repetitive, which is
@@ -135,7 +149,9 @@ export default state => html`
     <tbody>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage7}" />
+        </div>
         </td>
         <td>
           <h4>The Cerebral Palsy Tool Kit: From Diagnosis to Understanding</h4>
@@ -155,7 +171,9 @@ export default state => html`
       <br>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage8}" />
+        </div>
         </td>
         <td>
           <h4>Wellbeing for Parents and Caregivers</h4>
@@ -173,7 +191,9 @@ export default state => html`
       <tr>
         <td>
         </td>
+        <div class = "box">
         <img class="books" src="${myImage10}" />
+        </div>
         <td>
           <h4>
             Cerebral Palsy: A Complete Guide for Caregiving by Freeman Miller
@@ -200,7 +220,9 @@ export default state => html`
       <tr>
         <td>
         </td>
+        <div class = "box">
         <img class="books" src="${myImage9}" />
+       </div>
         <td>
           <h4>
             Children with Cerebral Palsy: A Parent’s Guide by Elaine Geralis
@@ -219,7 +241,9 @@ export default state => html`
       <br>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage11}" />
+        </div>
         </td>
         <td>
           <h4>Finnie’s Handling the Young Child with Cerebral Palsy</h4>
@@ -241,7 +265,9 @@ export default state => html`
       <tr>
         <td>
         </td>
+        <div class = "box">
         <img class="books" src="${myImage12}" />
+        </div>
         <td>
           <h4>Children and Youth with Complex Cerebral Palsy</h4>
           <p>
@@ -258,7 +284,9 @@ export default state => html`
       <br>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage13}" />
+        </div>
         </td>
         <td>
           <h4>
@@ -280,7 +308,9 @@ export default state => html`
       <br>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage14}" />
+        </div>
         </td>
         <td>
           <h4>Rolling through Life: Camp Handican by Russell W. Thompson</h4>
@@ -298,7 +328,9 @@ export default state => html`
       <br>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage15}" />
+        </div>
         </td>
         <td>
           <h4>Spastic Diplegia Bilateral Cerebral Palsy by Lily Collison</h4>
@@ -312,7 +344,9 @@ export default state => html`
       <br>
       <tr>
         <td>
+          <div class = "box">
         <img class="books" src="${myImage16}" />
+        </div>
         </td>
         <td>
           <h4>
@@ -339,7 +373,10 @@ export default state => html`
     <tbody>
       <tr>
         <td>
+
+          <div class = "box">
         <img class="books" src="${myImage17}" />
+        </div>
         </td>
         <td>
           <h4>Taking Cerebral Palsy to School</h4>
@@ -351,7 +388,9 @@ export default state => html`
       <br>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage18}" />
+        </div>
         </td>
         <td>
           <h4>Rolling Along: The Story of Taylor and His Wheelchair</h4>
@@ -363,7 +402,9 @@ export default state => html`
       <br>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage20}" />
+        </div>
         </td>
         <td>
           <h4>Taking Seizures Disorders to School by Kim Gosselin</h4>
@@ -379,7 +420,9 @@ export default state => html`
     <tbody>
       <tr>
         <td>
+        <div class = "box">
         <img class="books" src="${myImage21}" />
+        </div>
         </td>
         <td>
           <h4>Uncommon Fathers: Reflections on Raising a Child with a Disability</h4>

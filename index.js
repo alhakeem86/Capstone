@@ -31,14 +31,14 @@ function afterRender(state) {
       console.log("Input Element List", inputList);
 
       const requestData = {
-        customer: inputList.customer.value
+        story: inputList.story.value
       };
       console.log("request Body", requestData);
       axios
-        .post(`${process.env.PIZZA_PLACE_API_URL}/yourstories`, requestData)
+        .post(`${process.env.YOUR_STORY_API}/yourstories`, requestData)
         .then(response => {
-          store.yourstory.yourstories.push(response.data);
-          router.navigate("/yourstory");
+          store.Yourstory.yourstory.push(response.data);
+          router.navigate("/Yourstory");
         })
         // If there is an error log it to the console
         .catch(error => {
