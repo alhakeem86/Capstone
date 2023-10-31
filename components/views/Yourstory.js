@@ -2,7 +2,7 @@ import html from "html-literal";
 
 export default state => html`
  <section id="story-a">
-    <form id="story-x" method="POST" action="">
+    <form id="story-z" method="POST" action="">
       <h2>Write your Story</h2>
       <div>
       <label for="story"> Write your story</label>
@@ -17,5 +17,19 @@ export default state => html`
     </form>
 
   </section>
+
 </div>
+<section id="story-x">
+    <table id="story-y">
+      <tr>
+        <th>story list</th>
+
+      </tr>
+      ${state.storyapi
+        .map(api => {
+          return `<tr><td>${api.story}</td></tr>`;
+        })
+        .join("")}
+    </table>
+  </section>
 `;
