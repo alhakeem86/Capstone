@@ -37,7 +37,7 @@ function afterRender(state) {
       axios
         .post(`${process.env.YOUR_STORY_API}/yourstories`, requestData)
         .then(response => {
-          store.Yourstory.yourstory.push(response.data);
+          store.Yourstory.storyapi.push(response.data);
           router.navigate("/Yourstory");
         })
         // If there is an error log it to the console
@@ -90,14 +90,14 @@ router.hooks({
             done();
           });
         break;
-      case "yourstory":
+      case "Yourstory":
         // New Axios get request utilizing already made environment variable
         axios
-          .get(`${process.env.PIZZA_PLACE_API_URL}/yourstories`)
+          .get(`${process.env.YOUR_STORY_API}/yourstories`)
           .then(response => {
             // We need to store the response to the state, in the next step but in the meantime let's see what it looks like so that we know what to store from the response.
             console.log("response", response);
-            store.yourstory.yourstories = response.data;
+            store.Yourstory.storyapi = response.data;
             done();
           })
           .catch(error => {
