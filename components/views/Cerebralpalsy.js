@@ -190,6 +190,7 @@ export default state => html`
     <hr />
     <img class="ho-img" src="${myImage2}" />
   </div>
+  <div class="ul-cerebral">
     <h2 class="za">Causes of Cerebral Palsy</h2>
     <br />
     <p>
@@ -235,9 +236,10 @@ export default state => html`
       factors.
     </p>
     <br />
-    <h3>Research Highlights Regarding Causes of Cerebral Palsy</h3>
+    </div>
+    <h3 class="ul-cerebral">Research Highlights Regarding Causes of Cerebral Palsy</h3>
     <br />
-    <ul>
+    <ul class="ul-cerebral">
       <li>
         The research literature suggests that events during pregnancy are more
         likely to cause cerebral palsy than events during labor or delivery.

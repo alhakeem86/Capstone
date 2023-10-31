@@ -2,8 +2,8 @@ import html from "html-literal";
 
 export default state => html`
  <div class="container">
-    <h2 class="za">Connect With me</h2>
-    <p>we would love to respond to your queries and help you .feel free to get in touch with us</p>
+    <h2 class="za-x">Connect With me</h2>
+    <p class = za-xx>we would love to respond to your queries and help you .feel free to get in touch with us</p>
     <div class="contact-box">
       <div class ="contact-left">
         <h3>send your request</h3>

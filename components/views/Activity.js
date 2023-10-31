@@ -2,7 +2,7 @@ import html from "html-literal";
 
 export default state => html`
   <div class="container2">
-    <h1>Let's find something for you to do ✌️</h1>
+    <h2>Let's find something for you to do ✌️</h2>
 
     <form action="/" id="form" class="form-1" method="POST">
       <select name="type" class="form-select1">
