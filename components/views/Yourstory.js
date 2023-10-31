@@ -5,7 +5,7 @@ export default state => html`
     <form id="story-x" method="POST" action="">
       <h2>Write your Story</h2>
       <div>
-      <label>Write your story</label>
+      <label for="story"> Write your story</label>
       <input
           type="text"
           name=" story"

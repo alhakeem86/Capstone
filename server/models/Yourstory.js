@@ -6,6 +6,6 @@ const yourstorySchema = new mongoose.Schema({
     validate: /^[A-Za-z0-9 ]*$/
   }
 });
-const yourstory = mongoose.model("yourstory", yourstorySchema);
+const Yourstory = mongoose.model("Yourstory", yourstorySchema);
 
-export default yourstory;
+export default Yourstory;
