@@ -3,6 +3,7 @@ import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import yourstories from "./routers/yourstories.js";
+import axios from "axios";
 // Initialize the Express application
 const app = express();
 
@@ -56,6 +57,18 @@ app.get("/status", (request, response) => {
   // Create the response body
   // End and return the response
   response.send(JSON.stringify({ message: "Service healthy" }));
+});
+
+app.get("/activities", async (req, res) => {
+  try {
+    const response = await axios.get("https://bored-api.appbrewery.com/random");
+    const result = response.data;
+    console.log(result);
+    res.json(result);
+  } catch (error) {
+    console.error("Failed to make request:", error.message);
+    res.json(error);
+  }
 });
 
 app.get("/weather/:city", (request, response) => {

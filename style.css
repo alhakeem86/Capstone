@@ -23,6 +23,44 @@ form > input[type="submit"] {
   margin-right: auto;
 }
 
+ th{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: #011a32;
+ }
+
+ .activity-1{
+margin-left: 0px;
+font-size: x-large;
+align-content: center;
+text-align: center;
+
+ }
+#story-z{
+  margin: 50px;
+  width: 30%;
+  margin-left: 40px;
+  padding-bottom: 5%;
+  border-radius: 5%;
+}
+
+.input-story{
+  background-color:#0569c6;
+    outline:#e8ecf0;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.heading-story{
+  margin-left: 80px;
+}
+
+#write-story{
+padding-bottom: 30%;
+margin-top: 10%;
+font-size: 20px;
+box-sizing: border-box;
+}
 
 h1{
   color: white;
@@ -164,6 +202,7 @@ margin-left: 40px;
     outline: none;
     border: none;
     width: 100px;
+    border-radius: 5px;
   }
 
 .container2{
@@ -189,8 +228,8 @@ margin-left: 40px;
 #story-x{
   width:50%;
   border-radius:10px ;
- margin: 50px;
-padding: 20px;
+  margin: 50px;
+  padding: 20px;
 }
 ul{
   margin-left: 14px;
@@ -223,6 +262,7 @@ img{
   margin-left: 400px;
   border-radius: 300px;
 }
+
 .ex-img{
   width: 600px;
   height: 400px;

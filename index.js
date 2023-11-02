@@ -33,6 +33,7 @@ function afterRender(state) {
       const requestData = {
         story: inputList.story.value
       };
+
       console.log("request Body", requestData);
       axios
         .post(`${process.env.YOUR_STORY_API}/yourstories`, requestData)
@@ -46,7 +47,28 @@ function afterRender(state) {
         });
     });
   }
+  if (state.view === "Activity") {
+    document.querySelector("form").addEventListener("submit", event => {
+      event.preventDefault();
+      const inputList = event.target.elements;
+      console.log("Input Element List", inputList);
+
+      // put axios call for activities here
+
+      axios
+        .get(`${process.env.YOUR_STORY_API}/activities`)
+        .then(response => {
+          store.Activity.showActivity = response.data;
+          router.navigate("/Activity");
+        })
+        // If there is an error log it to the console
+        .catch(error => {
+          console.log("It puked", error);
+        });
+    });
+  }
 }
+
 router.hooks({
   before: (done, params) => {
     // We need to know what view we are on to know what data to fetch
@@ -105,6 +127,7 @@ router.hooks({
             done();
           });
         break;
+
       default:
         done();
     }
