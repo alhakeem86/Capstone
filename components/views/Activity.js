@@ -4,7 +4,7 @@ export default state => html`
   <div class="container2">
     <h2>Let's find something for you to do ✌️</h2>
 
-    <form action="/" id="form" class="form-1" method="POST">
+    <form id="form" class="form-1" method="POST">
       <select name="type" class="form-select1">
         <option value="" data-display="Select">Random type</option>
         <option value="education">Education</option>
@@ -23,7 +23,11 @@ export default state => html`
         <option value="3">3</option>
         <option value="4">4</option>
       </select>
-      <button type="submit" class="submit-1">Go</button>
-    </form>
-  </div>
-`;
+        <button type="submit" class="submit-1">Go</button>
+      </div>
+      <div class= "activity-1">
+        <h2>Your Activity is </h2><br><br>
+        ${JSON.stringify(state.showActivity.activity)}
+      </div>
+
+    `;

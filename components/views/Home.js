@@ -13,8 +13,8 @@ export default state => html`
   <div class = "simple">
   <img class="ho-img" src="${myImage}" />
     <h3> Simple Navigation & Integrated Content</h3><br>
-    <p>Our new site redesign features a new navigation and architecture, making it easier to find exactly what you are looking for. Our entire site is now broken into four main sections: CEREBRAL PALSY - a growing hub of information about Cerebral Palsy and include (definition, causes ,therapy elc...)
-       ENTERTAINMENT - a place to explore the many ways for children and youth with CP and their families They will read and watch a lot of important information about CP and successful experiences of people with the same diagnosis and disability, ABOUT US - where you can learn more information about us and our team and finally CONTACT - Here you can communicate with us through many electronic means of communication  We've made huge improvements on the integration of content and related materials within each page allowing you to easily flow between content without getting lost. </p>
+    <p>Our new site redesign features a new navigation and architecture, making it easier to find exactly what you are looking for. Our entire site is now broken into four main sections: CEREBRAL PALSY - a growing hub of information about Cerebral Palsy and include (definition, causes ,diagnosing elc...)
+       ENTERTAINMENT - a place to explore the many ways for children and youth with CP and their families They will read and watch a lot of important information about CP and successful experiences of people with the same diagnosis and disability, EXERCISES - where you can learn more information about us and our team and finally CONTACT - Here you can communicate with us through many electronic means of communication  We've made huge improvements on the integration of content and related materials within each page allowing you to easily flow between content without getting lost. </p>
   </div>
     </div>
     <div class = "footer">

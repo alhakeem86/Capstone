@@ -15,8 +15,8 @@ export default state => html`
       hearing, as well as secondary musculoskeletal problems
     </p>
     <img class="ho-img" src="${myImage}" />
-  </div>
-  <div class="simple">
+    </div>
+    <div class="simple">
     <p>
       The prevalence of CP is around 2 per 1000 live births. Based on neurologic
       findings CP is divided in 3 sub-types<sup>2</sup>, all of which have in
@@ -189,8 +189,8 @@ export default state => html`
     <br />
     <hr />
     <img class="ho-img" src="${myImage2}" />
-  </div>
-  <div class="ul-cerebral">
+    </div>
+    <div class="ul-cerebral">
     <h2 class="za">Causes of Cerebral Palsy</h2>
     <br />
     <p>
