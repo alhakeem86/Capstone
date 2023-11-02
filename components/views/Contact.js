@@ -7,7 +7,7 @@ export default state => html`
     <div class="contact-box">
       <div class ="contact-left">
         <h3>send your request</h3>
-        <form>
+        <form id="d">
             <div class="input-row">
               <div class="input-group">
                 <label>Name</label>
@@ -28,6 +28,7 @@ export default state => html`
               <div class="input-group">
                 <label>Subject</label>
                 <input type="subject" placeholder="enter your subject">
+                <input type="submit" />
               </div>
 
           </form>

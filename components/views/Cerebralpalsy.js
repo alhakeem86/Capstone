@@ -5,7 +5,7 @@ import myImage2 from "/assets/img/birth-injury-cerebral-palsy.jpg";
 
 export default state => html`
   <div class="welcome">
-    <h2 class="za">What is Cerebral Palsy?</h2>
+    <h2 class="za">What is Cerebral Palsy?</h2><br><br>
     <p>
       <strong>Cerebral Palsy (CP)</strong> is a term describing a group of
       permanent movement and posture disorders caused by a non-progressive
@@ -13,7 +13,7 @@ export default state => html`
       impairment in children. In addition, persons with CP may also have
       epilepsy and difficulties of cognition, communication, feeding, vision or
       hearing, as well as secondary musculoskeletal problems
-    </p>
+    </p><br><br>
     <img class="ho-img" src="${myImage}" />
     </div>
     <div class="simple">
@@ -81,7 +81,8 @@ export default state => html`
     </p>
     <br />
     <hr />
-    <img class="ho-img" src="${myImage1}" />
+    <br>
+    <img class="ho-img" src="${myImage1}" /><br>
     <h2 class="za">Diagnosing Cerebral Palsy</h2>
     <p>
       Diagnosing cerebral palsy (CP) has not always been an easy path. In the
@@ -188,7 +189,8 @@ export default state => html`
     </p>
     <br />
     <hr />
-    <img class="ho-img" src="${myImage2}" />
+    <br>
+    <img class="ho-img" src="${myImage2}" /><br>
     </div>
     <div class="ul-cerebral">
     <h2 class="za">Causes of Cerebral Palsy</h2>
