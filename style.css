@@ -253,7 +253,8 @@ img{
   margin-left: 550px;
   border-radius: 300px;
   border-style: solid ;
-  border-color: rgba(10, 1, 36, 0.7);
+  border-color:#01101f;
+  border-width: 6px;
 }
 
 .ho-img{
@@ -342,7 +343,7 @@ nav > ul {
   padding: 0;
   overflow: hidden;
   background-color: #01101f;
-  box-shadow: 0 0 20px rgba(10, 1, 36, 0.7);
+  box-shadow: 0 0 20px 7px  #f1a602;
   border-radius: 20px;
 }
 
