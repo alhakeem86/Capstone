@@ -23,7 +23,7 @@ export default state => html`
         <option value="3">3</option>
         <option value="4">4</option>
       </select>
-        <button type="submit" class="submit-1">Go</button>
+        <button type="send" class="send-1">Go</button>
       </div>
       <div class= "activity-1">
         <h2>Your Activity is </h2><br><br>

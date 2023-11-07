@@ -157,13 +157,13 @@ router
   })
   .resolve();
 
-const form = document.querySelector("form");
+const form = document.getElementById("d");
 //create a variable with a value that comes from a query selector
 form.addEventListener("submit", event => {
   //query the DOM for the "form" tag and  adding an event listener "submit" event and a function
   event.preventDefault();
   //prevent an events behavior from happening
-  console.log("The form was submitted!");
+  window.alert("The form was submitted!");
 
   const inputs = event.target.elements;
   console.log("form's input elements: ", inputs);
