@@ -24,7 +24,7 @@ export default () => html`
                     <div class="container copyright">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; My Journy With CP</a>, All Right Reserved.</p>
+                        <p>&copy; My Journey With CP</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
                         <p>Designed By <a href="https://linkedin.com/in/zaid-alhakeem-b0496b287">ZAID AL-HAKEEM</a></p>

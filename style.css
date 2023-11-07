@@ -103,7 +103,7 @@ h1::before{
 }
   30%,70%,90%
 {
-  width:37% ;
+  width:39% ;
 }
 }
 
@@ -343,7 +343,7 @@ nav > ul {
   padding: 0;
   overflow: hidden;
   background-color: #01101f;
-  box-shadow: 0 0 20px 7px  #f1a602;
+  box-shadow: 0 0 20px 7px  #ffbd2f;
   border-radius: 20px;
 }
 
